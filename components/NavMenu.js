@@ -33,7 +33,7 @@ export default function NavMenu({ data }) {
         {href && (
           <Link href={href}>
             <a>
-              <FaArrowCircleRight className="inline mx-3 text-yellow-600 text-sm hover:text-yellow-500" />
+              <FaArrowCircleRight className="inline mx-1.5 text-yellow-600 text-sm hover:text-yellow-500" />
             </a>
           </Link>
         )}
@@ -104,5 +104,5 @@ export default function NavMenu({ data }) {
     }
   }
 
-  return <ul className="h-full mx-4 my-1">{parkList}</ul>;
+  return <ul className="h-full mx-4 my-1 text-xl">{parkList}</ul>;
 }

@@ -33,7 +33,7 @@ export default function Snack({ snack }) {
   );
 
   return (
-    <div className="rounded-md bg-gray-100 mt-2 shadow-sm border">
+    <div className="rounded-md bg-gray-100 mx-3 mt-2 shadow-sm border">
       <li className="flex justify-between">
         <div className="flex">
           <div

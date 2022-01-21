@@ -30,7 +30,6 @@ export default function SnackList({
     if (!menuEffect) {
       setMenuEffect(true);
     }
-    console.log(`CLICKED! -- showMenu: ${showMenu}`);
     setShowMenu(!showMenu);
   };
 
@@ -38,7 +37,7 @@ export default function SnackList({
     <div className="z-30 w-full bg-green-700 h-10 shadow-sm">
       <button
         onClick={handleClick}
-        className={`mx-3 pt-2.5 text-white cursor-pointer`}
+        className={`mx-3 pt-0.5 text-white cursor-pointer text-xl`}
       >
         <span className="text-sm">
           <NavChevron
@@ -61,7 +60,7 @@ export default function SnackList({
         </div>
       ) : (
         <div className="relative flex flex-col content-center max-w-sm lg:max-w-2xl mx-auto">
-          <div className="flex justify-between mt-5">
+          <div className="flex justify-between mt-5 mx-3">
             <h1 className="text-green-700 text-sm font-bold">{title} Snacks</h1>
           </div>
           <ul className="flex-none">
