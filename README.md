@@ -1,3 +1,3 @@
 # oodelally
 
-A Next.js site to browse and rate Disney snacks
+Disney food review site built with Next.js, Tailwind CSS, and Mongo DB
